@@ -1,0 +1,4 @@
+[console_scripts]
+controller = cps_pid_turtle.controller:main
+sensor_publisher = cps_pid_turtle.sensor_publisher:main
+

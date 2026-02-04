@@ -1,0 +1,41 @@
+running egg_info
+creating build/cps_pid_turtle/cps_pid_turtle.egg-info
+writing build/cps_pid_turtle/cps_pid_turtle.egg-info/PKG-INFO
+writing dependency_links to build/cps_pid_turtle/cps_pid_turtle.egg-info/dependency_links.txt
+writing entry points to build/cps_pid_turtle/cps_pid_turtle.egg-info/entry_points.txt
+writing requirements to build/cps_pid_turtle/cps_pid_turtle.egg-info/requires.txt
+writing top-level names to build/cps_pid_turtle/cps_pid_turtle.egg-info/top_level.txt
+writing manifest file 'build/cps_pid_turtle/cps_pid_turtle.egg-info/SOURCES.txt'
+reading manifest file 'build/cps_pid_turtle/cps_pid_turtle.egg-info/SOURCES.txt'
+writing manifest file 'build/cps_pid_turtle/cps_pid_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+copying cps_pid_turtle/sensor_publisher.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+copying cps_pid_turtle/controller.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+copying cps_pid_turtle/__init__.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+running install
+running install_lib
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+copying /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle/sensor_publisher.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+copying /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle/controller.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+copying /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle/__init__.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+byte-compiling /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle/sensor_publisher.py to sensor_publisher.cpython-310.pyc
+byte-compiling /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle/controller.py to controller.cpython-310.pyc
+byte-compiling /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index/resource_index
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index/resource_index/packages
+copying resource/cps_pid_turtle -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/cps_pid_turtle
+creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/cps_pid_turtle/launch
+copying launch/follow_shape_launch.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/cps_pid_turtle/launch
+running install_egg_info
+Copying build/cps_pid_turtle/cps_pid_turtle.egg-info to /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/cps_pid_turtle
+Installing sensor_publisher script to /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/cps_pid_turtle
+writing list of installed files to '/home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/install.log'

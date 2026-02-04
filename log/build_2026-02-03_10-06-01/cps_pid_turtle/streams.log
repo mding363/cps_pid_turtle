@@ -1,0 +1,43 @@
+[0.328s] Invoking command in '/home/ubuntu/turtle_ws/src/cps_pid_turtle': PYTHONPATH=/home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/cps_pid_turtle build --build-base /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build install --record /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/install.log --single-version-externally-managed install_data
+[0.435s] running egg_info
+[0.435s] creating build/cps_pid_turtle/cps_pid_turtle.egg-info
+[0.435s] writing build/cps_pid_turtle/cps_pid_turtle.egg-info/PKG-INFO
+[0.436s] writing dependency_links to build/cps_pid_turtle/cps_pid_turtle.egg-info/dependency_links.txt
+[0.436s] writing entry points to build/cps_pid_turtle/cps_pid_turtle.egg-info/entry_points.txt
+[0.436s] writing requirements to build/cps_pid_turtle/cps_pid_turtle.egg-info/requires.txt
+[0.439s] writing top-level names to build/cps_pid_turtle/cps_pid_turtle.egg-info/top_level.txt
+[0.439s] writing manifest file 'build/cps_pid_turtle/cps_pid_turtle.egg-info/SOURCES.txt'
+[0.439s] reading manifest file 'build/cps_pid_turtle/cps_pid_turtle.egg-info/SOURCES.txt'
+[0.439s] writing manifest file 'build/cps_pid_turtle/cps_pid_turtle.egg-info/SOURCES.txt'
+[0.439s] running build
+[0.439s] running build_py
+[0.439s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build
+[0.439s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib
+[0.439s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+[0.439s] copying cps_pid_turtle/sensor_publisher.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+[0.439s] copying cps_pid_turtle/controller.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+[0.440s] copying cps_pid_turtle/__init__.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle
+[0.440s] running install
+[0.440s] running install_lib
+[0.441s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+[0.441s] copying /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle/sensor_publisher.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+[0.442s] copying /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle/controller.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+[0.442s] copying /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build/lib/cps_pid_turtle/__init__.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle
+[0.442s] byte-compiling /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle/sensor_publisher.py to sensor_publisher.cpython-310.pyc
+[0.443s] byte-compiling /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle/controller.py to controller.cpython-310.pyc
+[0.443s] byte-compiling /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle/__init__.py to __init__.cpython-310.pyc
+[0.444s] running install_data
+[0.444s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index
+[0.444s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index/resource_index
+[0.444s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index/resource_index/packages
+[0.444s] copying resource/cps_pid_turtle -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/ament_index/resource_index/packages
+[0.445s] copying package.xml -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/cps_pid_turtle
+[0.445s] creating /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/cps_pid_turtle/launch
+[0.445s] copying launch/follow_shape_launch.py -> /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/share/cps_pid_turtle/launch
+[0.445s] running install_egg_info
+[0.446s] Copying build/cps_pid_turtle/cps_pid_turtle.egg-info to /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages/cps_pid_turtle-0.0.0-py3.10.egg-info
+[0.448s] running install_scripts
+[0.459s] Installing controller script to /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/cps_pid_turtle
+[0.459s] Installing sensor_publisher script to /home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/cps_pid_turtle
+[0.459s] writing list of installed files to '/home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/install.log'
+[0.472s] Invoked command in '/home/ubuntu/turtle_ws/src/cps_pid_turtle' returned '0': PYTHONPATH=/home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/turtle_ws/src/cps_pid_turtle/install/cps_pid_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/cps_pid_turtle build --build-base /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/build install --record /home/ubuntu/turtle_ws/src/cps_pid_turtle/build/cps_pid_turtle/install.log --single-version-externally-managed install_data
