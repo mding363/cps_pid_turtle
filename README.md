@@ -94,6 +94,33 @@ ros2 run cps_pid_turtle controller
 
 Publishes `Odometry` and `Imu` message to `/nav_msgs/odometry` and `/sensor_msgs/imu`
 
+## Development
+
+### Building After Changes
+
+After modifying any Python files:
+
+```bash
+cd ~/turtle_ws
+colcon build --packages-select turtle_controller
+source install/setup.bash
+```
+
+### Adding New Nodes
+
+1. Create your Python script in `turtle_controller/`
+2. Make it executable: `chmod +x your_script.py`
+3. Add entry point in `setup.py`:
+   ```python
+   entry_points={
+       'console_scripts': [
+           'your_node = turtle_controller.your_script:main',
+       ],
+   },
+   ```
+4. Rebuild the package
+
+
 ##  Useful Commands
 
 ### Inspect Running System
