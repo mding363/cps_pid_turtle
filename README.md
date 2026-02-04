@@ -93,3 +93,30 @@ ros2 run cps_pid_turtle controller
 ### 2. Sensor Publisher (`sensor_publisher`)
 
 Publishes `Odometry` and `Imu` message to `/nav_msgs/odometry` and `/sensor_msgs/imu`
+
+##  Useful Commands
+
+### Inspect Running System
+
+```bash
+# List all nodes
+ros2 node list
+
+# List all topics
+ros2 topic list
+
+# See topic info
+ros2 topic info /turtle1/cmd_vel
+
+# Echo topic messages
+ros2 topic echo /turtle1/pose
+
+# List services
+ros2 service list
+
+# See service type
+ros2 service type /rotate_turtle
+
+# View computational graph
+rqt_graph
+```
