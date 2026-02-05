@@ -1,6 +1,6 @@
 # Turtle Controller - ROS 2 Humble Package
 
-A  ROS 2 package demonstrating Twist, Odometry and Imu message publishing, and subscribing using the turtlesim simulator.
+A  ROS 2 package demonstrating Twist, Odometry and Imu message publishing, and subscribing using the turtlesim simulator. The owner of the project is Minjie Ding 484363
 
 ## Overview
 
